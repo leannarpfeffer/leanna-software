@@ -1,0 +1,55 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# JavaScript and web applications
+node_modules/
+.next/
+.nuxt/
+.vite/
+.cache/
+coverage/
+dist/
+build/
+
+# MATLAB and R session files
+*.asv
+*.m~
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local datasets and generated output
+data/private/
+data/raw/
+outputs/
+tmp/
+*.log
