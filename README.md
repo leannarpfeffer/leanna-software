@@ -6,11 +6,11 @@ Each project lives in its own folder, with its own setup instructions and depend
 
 ## Projects
 
-No software projects have been added yet. Add a row here when a project is uploaded.
+Each project below has its own setup instructions.
 
 | Project | What it does | Requirements | Status |
 | --- | --- | --- | --- |
-| *Your next project* | Add a short description | For example, Python or MATLAB | Planned |
+| [Raman raw-WDF analysis and report figures](projects/raman-report/) | PP/PE Raman mapping, spectral analysis, sampling comparisons, and report figures | Python 3.11+ | Validated on the report dataset |
 
 ## Add a project
 
@@ -46,3 +46,4 @@ Include source code, dependency manifests, instructions, and small shareable exa
 ## License
 
 Original code in this repository is available under the [MIT License](LICENSE), unless a project states otherwise. Keep existing license notices with third-party code and assets. Dependencies retain their own licenses.
+

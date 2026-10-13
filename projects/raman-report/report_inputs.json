@@ -1,0 +1,159 @@
+{
+  "description": "Original report raw inputs; filenames are hints, SHA-256 determines identity. Twenty required maps and two optional E4 checks.",
+  "inputs": [
+    {
+      "name": "E0-map2",
+      "sample": "E0",
+      "source_file": "E0-map2.wdf",
+      "sha256": "b4d1b1eb2a2e6a621af3ff9e11eacfba78e19f4899110a854c2a427bb3c3dc56",
+      "required": true
+    },
+    {
+      "name": "E1-map",
+      "sample": "E1",
+      "source_file": "E1-map.wdf",
+      "sha256": "d25a93c389e68d2a84c270dba64c55b0cbe708292067058aa4092a3cb52abc2f",
+      "required": true
+    },
+    {
+      "name": "E2-map1",
+      "sample": "E2",
+      "source_file": "E2-map1.wdf",
+      "sha256": "7cb41082471b04364470e05c932be3b05726fe96403533c9a155d2b2856c0f13",
+      "required": true
+    },
+    {
+      "name": "E3-map",
+      "sample": "E3",
+      "source_file": "E3-map.wdf",
+      "sha256": "5973a687cc7222386278ec6c742b8cfb1cfb4e70871f5765a76ca084fb478ce5",
+      "required": true
+    },
+    {
+      "name": "E4-map",
+      "sample": "E4",
+      "source_file": "E4-map.wdf",
+      "sha256": "9fcd8a7cc6a8f15a88d5268bab128656815412a21a445d358392fce86293faa2",
+      "required": true
+    },
+    {
+      "name": "E5-map",
+      "sample": "E5",
+      "source_file": "E5-map.wdf",
+      "sha256": "48d0bfe5a10df7a5270c5c3b9b3b70d43fcf8f5d78e4c3a18274a6fb0692d4f2",
+      "required": true
+    },
+    {
+      "name": "E0-2-1.0",
+      "sample": "E0",
+      "source_file": "E0-2-1.0(2).wdf",
+      "sha256": "0e2044394e08599f1bdc8436e3ad94afc3db7d874dbe85f7a33ef7f08cdbc139",
+      "required": true
+    },
+    {
+      "name": "E1-2-1.0",
+      "sample": "E1",
+      "source_file": "E1-2-1.0(2).wdf",
+      "sha256": "862c3e89cebae5adaf1238d5308af6315998d41cec6e8e77dd7ecbfcfab9b85a",
+      "required": true
+    },
+    {
+      "name": "E2-2-1.0",
+      "sample": "E2",
+      "source_file": "E2-2-1.0(2).wdf",
+      "sha256": "9c7c5854144716169237e2b9330bddcff083cf62cf30fdf58026a33da6c88b1d",
+      "required": true
+    },
+    {
+      "name": "E3-2-1.0",
+      "sample": "E3",
+      "source_file": "E3-2-1.0.wdf",
+      "sha256": "b1a8da7eb025170824f4cfa0eeac9c29f63cc8cb8557df50092e2b84131883d7",
+      "required": true
+    },
+    {
+      "name": "E4-2-1.0",
+      "sample": "E4",
+      "source_file": "E4-2-1.0.wdf",
+      "sha256": "338c6753cb70dbec3ec86b67b519aaf31524dd6c85602ffaa6090d6b469e473d",
+      "required": true
+    },
+    {
+      "name": "E5-2-1.0",
+      "sample": "E5",
+      "source_file": "E5-2-1.0.wdf",
+      "sha256": "262b0a66fde527ab8a82bc32a5a2bd371a0e5a5ad5aac4114ca708f6a92d89b6",
+      "required": true
+    },
+    {
+      "name": "E0-small",
+      "sample": "E0",
+      "source_file": "E0-small(3).wdf",
+      "sha256": "24fac8f2dccd1675d2d4383b77bd3e6a9c1171b16c46846d5161941cd6b46a80",
+      "required": true
+    },
+    {
+      "name": "E1-small",
+      "sample": "E1",
+      "source_file": "E1-small(2).wdf",
+      "sha256": "9bffdc5925c83d09272eb37d86f4ac3a03b9118f268eb5ca522abdce71dc8b44",
+      "required": true
+    },
+    {
+      "name": "E2-small",
+      "sample": "E2",
+      "source_file": "E2-small(2).wdf",
+      "sha256": "303349a0f99bec0c1eaebbf29aeedbfab3b85005d896d6c947cc4e55f3e9c150",
+      "required": true
+    },
+    {
+      "name": "E3-small",
+      "sample": "E3",
+      "source_file": "E3-small(2).wdf",
+      "sha256": "df8949ae9eafc8da63266117198600e109f6b4ec071eb0b4949b194cdd3b6ecf",
+      "required": true
+    },
+    {
+      "name": "E4-small",
+      "sample": "E4",
+      "source_file": "E4-small.wdf",
+      "sha256": "bc1a23788ccd2fe3b47d05a67e8e8213ca9c551ea8de9d3f269a56d166f78b83",
+      "required": true
+    },
+    {
+      "name": "E5-small",
+      "sample": "E5",
+      "source_file": "E5-small.wdf",
+      "sha256": "db33e41158c87f2ec31836f90dea658c57e80c73ca83f9150fb3273a55b4550b",
+      "required": true
+    },
+    {
+      "name": "PP-maps",
+      "sample": "PP",
+      "source_file": "PP-maps.wdf",
+      "sha256": "a04c2a2971bd88bf486fccc95a0aa0f869776ea31db322dda2ed3fc9e34bdc33",
+      "required": true
+    },
+    {
+      "name": "PE-map",
+      "sample": "PE",
+      "source_file": "PE-map.wdf",
+      "sha256": "4419fb3c9db4fccb45690c8cc0ea39368d2d741272a4cfe15054b88b66f20f1f",
+      "required": true
+    },
+    {
+      "name": "E4-2_10062026",
+      "sample": "E4",
+      "source_file": "E4-2_10062026.wdf",
+      "sha256": "0357e84daa8ae9508a3ff69bcdcd91de40ca01d793edd4ddf926c26ccbe156a1",
+      "required": false
+    },
+    {
+      "name": "E4-2_2",
+      "sample": "E4",
+      "source_file": "E4-2_2.wdf",
+      "sha256": "07b9ed2ebf9484ce61987235c8faf0cd05a536eec227d882a693349cd817bf21",
+      "required": false
+    }
+  ]
+}

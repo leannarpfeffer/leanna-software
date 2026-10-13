@@ -1,0 +1,31 @@
+RAW-WDF WORKFLOW VALIDATION - 12 OCTOBER 2026
+
+End-to-end report mode completed from 22 original raw WDF files, totaling
+52,584 spectra (20 main maps: 51,708 spectra; 2 additional E4 checks).
+All 7 report/supplement figures were exported as PNG, PDF and SVG.
+22 generic map/spectrum panels and one overview were also exported.
+
+Comparison against retained numerical analysis:
+- Summary: 22 rows, 59 common numerical fields, max absolute difference
+  8.88e-16.
+- Regional structure: 12 rows, 12 numerical fields, exact equality.
+- Matched footprints: 6 rows, 28 numerical fields, max absolute difference
+  4.27e-14.
+- Sampling offsets: 3,000 rows, all pooled ratios and counts reproduced;
+  max absolute difference 4.45e-16.
+- E4 transects, profiles, boundary seeds, mean spectra and region tables:
+  all numerical columns exactly equal under the default tested runtime.
+  Median apparent 10-90% width: 1.4999373615 um.
+  A separate single-thread BLAS check varied one auxiliary width by 1.39e-8.
+
+Generic mode: renamed uppercase-extension WDF analyzed successfully using
+its new label, with fresh outputs and complete run manifest.
+CLI --help, missing-report-input rejection and nonempty-output rejection
+were checked. Unsupported map geometry, wrong axes/units, missing spectral
+coverage, unusable signal and zero denominator behavior were checked.
+Count-unit guard accepted PP-maps unchanged and rejected relative intensity.
+Missing plot inputs fail clearly without bundled-data fallback.
+The desktop Tkinter chooser was not interactively exercised in this
+headless environment; the same CLI input-processing path was tested.
+All seven freshly reconstructed report PNGs are pixel-identical to the
+reference regenerated plots; generic specimen figure also passed visual QA.
